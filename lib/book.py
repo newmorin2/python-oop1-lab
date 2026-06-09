@@ -7,9 +7,9 @@ class Book:
         if isinstance(page_count,int):
             self.page_count = page_count
         else:
-            print("Page count must be an integer")
+            print("page_count must be an integer")
             self.page_count = None
 
     def turn_page(self):
-        print("Flipping the page...wow you read fast!")
+        print("Flipping the page...wow,you read fast!")
         
