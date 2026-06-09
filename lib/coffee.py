@@ -14,9 +14,9 @@ class Coffee:
         if value in ["Small","Medium","Large"]:
             self._size= value
         else:
-            print("Size must be Small,Medium, or Large")
+            print("size must be Small, Medium, or Large")
             self.size = None
     
     def tip(self):
-        print("This coffee is great, here's a tip!")
+        print("This coffee is great, here’s a tip!")
         self.price += 1
